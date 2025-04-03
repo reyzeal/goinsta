@@ -1,6 +1,6 @@
 module github.com/reyzeal/goinsta/v3
 
-go 1.18
+go 1.24
 
 require (
 	github.com/chromedp/cdproto v0.0.0-20220901095120-1a01299a2163
