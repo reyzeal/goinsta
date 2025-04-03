@@ -307,7 +307,7 @@ type User struct {
 	ProfessionalConversionSuggestedAccountType int           `json:"professional_conversion_suggested_account_type"`
 	InteropMessagingUserfbid                   int64         `json:"interop_messaging_user_fbid"`
 	LinkedFbInfo                               struct{}      `json:"linked_fb_info"`
-	HasElegibleWhatsappLinkingCategory         struct{}      `json:"has_eligible_whatsapp_linking_category"`
+	HasElegibleWhatsappLinkingCategory         bool      `json:"has_eligible_whatsapp_linking_category"`
 	ExistingUserAgeCollectionEnabled           bool          `json:"existing_user_age_collection_enabled"`
 	AboutYourAccountBloksEntrypointEnabled     bool          `json:"about_your_account_bloks_entrypoint_enabled"`
 	OpenExternalUrlWithInAppBrowser            bool          `json:"open_external_url_with_in_app_browser"`
